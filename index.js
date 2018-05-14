@@ -39,6 +39,7 @@ module.exports = function AuraRangeNotify(dispatch) {
         let stringId = JSON.stringify(gameId)
         if (auraMembers.includes(stringId)){
             auraMembers=[stringId]
+            applyVisual({gameId: gameId})
         }
         else {
             auraMembers=[]
@@ -102,7 +103,7 @@ module.exports = function AuraRangeNotify(dispatch) {
             target: member.gameId,
             source: gameId,
             id: EffectId,
-            duration: 864000000,
+            duration: 0,
             unk: 0,
             stacks: 1,
             unk2: 0
