@@ -1,0 +1,15 @@
+{
+	"files": {
+		"index.js": "b26c37cfd65d8eaef91af503e191958e726dc34f220d57e34525817b02582cfd",
+		"module.json": "fac9c388712c613e030eaa7e644e4b8eb681ffe5a86ffa8dea4ae1ae0d2ab789",
+		"README.MD": "923bce057ebffe2903927b2516c6a62fb452e2cbf76d3499e1f3e6828d3a173d"
+	},
+	"defs": {
+		"S_LOGIN": 10,
+		"S_PARTY_MEMBER_LIST": 6,
+		"S_LEAVE_PARTY": 1,
+		"S_ABNORMALITY_BEGIN": 2,
+		"S_ABNORMALITY_REFRESH": 1,
+		"S_ABNORMALITY_END": 1
+	}
+}

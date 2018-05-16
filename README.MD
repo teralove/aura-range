@@ -1,12 +1,12 @@
 # aura-range
-Applies a visual effect on party members that are out of range for auras.
+Applies a visual effect on party members that have mystic auras when playing as mystic or manually enabled.
 
 ## Info
-- The current visual effect is Kelsaik's Ice debuff. Party members glow bright white-blue when out of range. (Probably not ideal, share if you know a more suitable alternative).
-- Does not compensate for buffed range (Harrowhold)
+- The current visual effect is Apex Urgency. Party members glow bright yellow when auras are active and in-range.
+- Requires "Effects Distance" 2 or greater in "Video" tab in "Options" window. Greater than 2 required for Harrowhold's buffed distance (unsure if Effects Distance needs to be 3 or 4)
 
 ## Usage
-### `aurarange`
+### `ar`,`aura`,`auras`,`aurarange`, or `aura-range`
 - Toggle on/off
 
 ---
